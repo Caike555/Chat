@@ -1,0 +1,8 @@
+{
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/*.css": true
+    }
+}

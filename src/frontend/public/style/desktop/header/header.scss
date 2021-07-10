@@ -1,0 +1,29 @@
+header {
+    max-height: 50px;
+    position: sticky;
+    top: 0;
+    nav {
+        ul {
+            display: flex;
+            float: right;
+            il{
+                background: rgb(25, 38, 163);
+                border: none;
+                text-align: center;
+                border-radius: 5%;
+                margin-left: 20px;
+                padding: 5px 20px 5px 20px;
+                
+                a{
+                    text-decoration: none;
+                    font-size: large;
+                    color: white;
+                }
+            }
+            il:hover{
+                cursor: pointer;
+                box-shadow: none;
+            }
+        }
+    }
+}

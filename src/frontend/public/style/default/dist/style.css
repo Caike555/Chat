@@ -1,0 +1,189 @@
+.Index_Logo {
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+}
+.Index_Logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.return {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.return .info {
+  position: absolute;
+  margin-top: 100px;
+}
+.return .info .T5SecondCountDown {
+  text-align: center;
+}
+.return .title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: black;
+  background: linear-gradient(to left top, #232323, #2d2d2d);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  height: 500rem;
+}
+
+@media (min-width: 700px) {
+  header {
+    max-height: 50px;
+    position: sticky;
+    top: 0;
+  }
+  header nav ul {
+    display: flex;
+    float: right;
+  }
+  header nav ul il {
+    background: #1926a3;
+    border: none;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 20px;
+    padding: 5px 20px 5px 20px;
+  }
+  header nav ul il a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+  }
+  header nav ul il:hover {
+    cursor: pointer;
+    box-shadow: none;
+  }
+
+  .Index_Page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+  }
+  .Index_Page .MainInfo {
+    position: absolute;
+    margin-top: 100px;
+  }
+  .Index_Page .MainInfo .About {
+    font-size: larger;
+  }
+  .Index_Page .MainInfo .Open {
+    background: #3852c5;
+    border-radius: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100px;
+  }
+  .Index_Page .MainInfo .Open a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+  }
+  .Index_Page .MainInfo .Open:hover {
+    cursor: pointer;
+  }
+  .Index_Page .MainInfo .Open:active {
+    background: #2d419d;
+  }
+
+  .Login_Page {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Login_Page .LoginForm {
+    position: absolute;
+    margin-top: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  .Login_Page .LoginForm label {
+    font-size: 25px;
+  }
+  .Login_Page .LoginForm h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .Login_Page .LoginForm .input_box {
+    border-width: 0px;
+    height: 25px;
+    width: 250px;
+    border-radius: 2%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  .Login_Page .LoginForm .submit {
+    width: 100px;
+    border-radius: 10%;
+    border-color: transparent;
+    border-width: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #56638d;
+    color: white;
+    font-size: 20px;
+    margin-left: 75px;
+  }
+  .Login_Page .LoginForm .submit:hover {
+    cursor: pointer;
+    background: #434d6d;
+  }
+
+  .Signup_Page {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Signup_Page .SignupForm {
+    position: absolute;
+    margin-top: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  .Signup_Page .SignupForm label {
+    font-size: 25px;
+  }
+  .Signup_Page .SignupForm h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .Signup_Page .SignupForm .input_box {
+    border-width: 0px;
+    height: 25px;
+    width: 250px;
+    border-radius: 2%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  .Signup_Page .SignupForm .submit {
+    width: 100px;
+    border-radius: 10%;
+    border-color: transparent;
+    border-width: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #56638d;
+    color: white;
+    font-size: 20px;
+    margin-left: 75px;
+  }
+  .Signup_Page .SignupForm .submit:hover {
+    cursor: pointer;
+    background: #434d6d;
+  }
+}

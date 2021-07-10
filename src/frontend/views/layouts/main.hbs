@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />  
+    <title>Chat App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="stylesheet" type="text/css" href="./style/default/dist/style.css" />
+    <script src="./scripts/main.js"></script>
+  </head>
+  <body>
+    <header>
+    <div class="Index_Logo">
+      <a href="/">Chat</a>
+    </div>
+      <nav>
+        <ul>
+          {{#if loggedIn}}
+          <il>
+            <a href="/Chat">Open</a>
+          </il>
+          {{else}}
+          <il>
+            <a href="/Login">Open</a>
+          </il>
+          <il>
+            <a href="/Register">Signup</a>
+          </il>
+          {{/if}}
+        </ul>
+      </nav>
+     
+    </header>
+    {{{body}}}
+  </body>
+</html>

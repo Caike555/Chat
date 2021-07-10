@@ -1,0 +1,34 @@
+.Index_Logo {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Index_Page {
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+.Index_Page .About {
+  font-size: larger;
+}
+.Index_Page .Open {
+  background: #3852c5;
+  border-radius: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100px;
+}
+.Index_Page .Open a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+.Index_Page .Open:hover {
+  cursor: pointer;
+}
+.Index_Page .Open:active {
+  background: #2d419d;
+}

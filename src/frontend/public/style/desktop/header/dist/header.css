@@ -1,0 +1,26 @@
+header {
+  max-height: 50px;
+  position: sticky;
+  top: 0;
+}
+header nav ul {
+  display: flex;
+  float: right;
+}
+header nav ul il {
+  background: #1926a3;
+  border: none;
+  text-align: center;
+  border-radius: 5%;
+  margin-left: 20px;
+  padding: 5px 20px 5px 20px;
+}
+header nav ul il a {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
+header nav ul il:hover {
+  cursor: pointer;
+  box-shadow: none;
+}

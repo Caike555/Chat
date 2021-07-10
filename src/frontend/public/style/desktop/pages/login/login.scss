@@ -1,0 +1,39 @@
+@import './imports.scss';
+
+.Login_Page{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    .LoginForm{
+        position: absolute;
+        margin-top: 150px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 50px;
+        border-radius: 10%;
+        box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+
+
+        label {
+            font-size: 25px;
+        }
+        
+
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .input_box{
+            @include Textbox_Input();
+        }
+
+        .submit{
+            @include Button_Submit();
+        }
+
+        .submit:hover {
+            cursor: pointer;
+            background: darken(rgb(86, 99, 141), 10%);
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.return {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.return .info {
+  position: absolute;
+  margin-top: 100px;
+}
+.return .info .T5SecondCountDown {
+  text-align: center;
+}
+.return .title {
+  text-align: center;
+  text-transform: capitalize;
+}

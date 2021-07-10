@@ -1,0 +1,12 @@
+@mixin Button_Submit {
+    width: 100px;
+    border-radius: 10%;
+    border-color: transparent;
+    border-width: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(86, 99, 141);
+    color: white;
+    font-size: 20px;
+    margin-left: 75px;
+}

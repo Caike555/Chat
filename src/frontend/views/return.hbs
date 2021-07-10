@@ -1,0 +1,20 @@
+<script src="./scripts/pages/return/5SecondCountDown.js"></script>
+<div class="return">
+    <div class="info">
+        {{#if error}}
+            <p class="title">{{return_type}} error</p>
+            <p class="text"{{error_text}}></p>
+            <h1 class="RedirectLink" style="color:transparent">{{redirect_error}}</h1>
+        {{else}}
+            <p class="title">{{return_type}} success</p>
+            <p class="text">{{success_text}}</p>
+            <h1 class="RedirectLink" style="color:transparent">{{redirect_success}}</h1>
+        {{/if}}
+
+        <p class="T5SecondCountDown">
+        Redirecting in 5 seconds  
+        </p>
+    </div>
+
+
+</div>

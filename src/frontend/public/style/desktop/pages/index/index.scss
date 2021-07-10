@@ -1,0 +1,45 @@
+@import './imports.scss';
+
+.Index_Page {
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 550px;
+
+    .MainInfo {
+        position: absolute;
+        margin-top: 100px;
+
+        .About{
+            font-size: larger;
+        }
+        .Open{
+            background: $OpenColor;
+    
+            border-radius: 10%;
+    
+    
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+            margin-left: auto;
+            margin-right: auto;
+    
+            text-align: center;
+    
+            width: 100px;
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: large;
+            }
+        }
+        .Open:hover{
+            cursor: pointer;
+        }
+        .Open:active{
+            background: darken($OpenColor, 10);
+        }
+    }
+}

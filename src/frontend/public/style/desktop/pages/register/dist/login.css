@@ -1,0 +1,43 @@
+.Login_Page {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Login_Page .LoginForm {
+  position: absolute;
+  margin-top: 150px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 10%;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.Login_Page .LoginForm label {
+  font-size: 25px;
+}
+.Login_Page .LoginForm h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.Login_Page .LoginForm .input_box {
+  border-width: 0px;
+  height: 25px;
+  width: 250px;
+  border-radius: 5%;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.Login_Page .LoginForm .submit {
+  width: 100px;
+  border-radius: 10%;
+  border-color: transparent;
+  border-width: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #56638d;
+  color: white;
+  font-size: 20px;
+  margin-left: 75px;
+}
+.Login_Page .LoginForm .submit:hover {
+  cursor: pointer;
+  background: #434d6d;
+}

@@ -1,0 +1,29 @@
+@import '../config.scss';
+@import './logo.scss';
+@import '../desktop/return/return.scss';
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: $background;
+    background: linear-gradient(to left top, rgb(35, 35, 35), rgb(45, 45, 45));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: $forecolor;
+
+
+    height: 500rem;
+
+}
+ 
+@media (min-width: 700px) {
+    @import '../desktop/header/header.scss';
+
+    @import '../desktop/pages/index/index.scss';
+    @import '../desktop/pages/login/login.scss';
+    @import '../desktop/pages/register/register.scss';
+
+}
+@media (max-width: 700px) {
+   
+}
