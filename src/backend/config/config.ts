@@ -11,6 +11,9 @@ const LOGGING_ENABLED = process.env.LOGGING_ENABLED || "true";
 
 const JWT_PRIVATE_KEY = process.env.JWT_SECRET || "KEY_IS_MISSING";
 
+const AUTH_DB_NAME = process.env.AUTH_DB_NAME || "Auth";
+const AUTH_DB_URL = process.env.AUTH_DB_URL || "";
+
 const SERVER = {
     hostname: SERVER_HOSTNAME,
     port: SERVER_PORT
@@ -28,11 +31,17 @@ const KEYS = {
     JWT_PRIVATE_KEY: JWT_PRIVATE_KEY
 }
 
+const DATABASE = {
+    AUTH_DB_NAME: AUTH_DB_NAME,
+    AUTH_DB_URL: AUTH_DB_URL
+}
+
 const config = {
     server: SERVER,
     routes: ROUTES,
     logging: LOGGING,
-    keys: KEYS
+    keys: KEYS,
+    database: DATABASE
 };
 
 
